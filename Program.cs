@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace Puzzle
 {
-    class PuzzleCS
+    class PuzzleCS//main class for the game
     {
         static Random Rng = new Random();
 
@@ -40,7 +40,7 @@ namespace Puzzle
             Console.ReadLine();
         }
 
-        class Puzzle
+        class Puzzle//puzzle class, holds all the data for the puzzle such as the 
         {
             private int Score;
             private int SymbolsLeft;
